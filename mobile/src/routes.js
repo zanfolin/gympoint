@@ -7,6 +7,7 @@ import HelpOrders from '~/HelpOrders';
 import Header from '~/components/Header';
 import Answer from '~/Answer';
 import Question from '~/Question';
+import Signout from '~/Signout';
 
 export default (signedIn = false) =>
   createAppContainer(
@@ -18,6 +19,7 @@ export default (signedIn = false) =>
           {
             Dashboard,
             HelpOrders,
+            Signout,
           },
           {
             resetOnBlur: true,

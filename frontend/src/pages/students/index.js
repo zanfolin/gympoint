@@ -85,6 +85,7 @@ export default function Students() {
           <table>
             <thead>
               <tr>
+                <td>ID</td>
                 <td>NOME</td>
                 <td>E-MAIL</td>
                 <td>IDADE</td>
@@ -94,6 +95,7 @@ export default function Students() {
             <tbody>
               {students.map(student => (
                 <tr key={student.id}>
+                  <td>{student.id}</td>
                   <td>{student.name}</td>
                   <td>{student.email}</td>
                   <td>{student.age_number}</td>

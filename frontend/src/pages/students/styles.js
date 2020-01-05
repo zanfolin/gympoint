@@ -152,27 +152,32 @@ export const Lista = styled.div`
       /*border: 1px solid black;*/
     }
 
-    td:nth-child(3),
-    td:nth-child(4) {
+    td:nth-child(1) {
+      width: 5%;
+      text-align: center;
+    }
+
+    td:nth-child(4),
+    td:nth-child(5) {
       text-align: center;
       width: 15%;
     }
 
-    td:nth-child(1),
-    td:nth-child(2) {
-      width: 35%;
+    td:nth-child(2),
+    td:nth-child(3) {
+      width: 32.5%;
     }
 
-    td:nth-child(4) button {
+    td:nth-child(5) button {
       background-color: unset;
       border: none;
     }
-    td:nth-child(4) button:nth-child(1) {
+    td:nth-child(5) button:nth-child(1) {
       color: red;
       margin-right: 10px;
     }
 
-    td:nth-child(4) button:nth-child(2) {
+    td:nth-child(5) button:nth-child(2) {
       color: blue;
     }
   }
