@@ -6,7 +6,22 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+No desafio proposto para o bootcamp é desenvolver um sistema capaz de administrar uma academia em algumas funções pré-determinada, dentre elas haviam: Usuários do Sistema (User), Sessões (Sessions) Estudantes(Students), Matrículas (Registrations), Planos (Plan), Pedidos de Ajuda (Help Orders) e Entradas (Checkins).
+
+O sistema deve dar o suporte necessário para cadastrar, alterar, consultar e excluir as informações no sistema, além das regras de negócios de conhecimento popular e as de requisito específico.
+
+Bibliotecas utilizadas para o desenvolvimento:
+
+- "bcryptjs": "^2.4.3",
+- "cors": "^2.8.5",
+- "date-fns": "^2.0.0-beta.5",
+- "express": "^4.17.1",
+- "jsonwebtoken": "^8.5.1",
+- "nodemailer": "^6.4.2",
+- "pg": "^7.14.0",
+- "pg-hstore": "^2.3.3",
+- "sequelize": "^5.21.3",
+- "yup": "^0.27.0"
 
 ![](../prints/backend_vscode.png)
 
