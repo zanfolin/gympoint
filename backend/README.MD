@@ -8,7 +8,7 @@
 
 De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
 
-![](../header.png)
+![](../prints/backend_vscode.png)
 
 ## Instalação
 
