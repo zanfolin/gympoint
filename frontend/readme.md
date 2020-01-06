@@ -66,6 +66,10 @@ yarn start
 ![](../prints/frontend_matriculas.png)
 ![](../prints/frontend_ped_auxilio.png)
 
+## Erro Detectado
+
+O componente History não está funcionando, apesar da configuração estar aparentemente correta. Assim, em algumas transições de tela é necessário clicar em _Atualizar a Página_ do navegador para corrigir a rota.
+
 ## Histórico de lançamentos
 
 - 0.0.1
