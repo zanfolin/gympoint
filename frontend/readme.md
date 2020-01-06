@@ -1,4 +1,4 @@
-# Backend - GYMPOINT
+# Frontend - GYMPOINT
 
 > Sistema Web (frontend) do Desafio 9 do Bootcamp da Rocketseat. Interface de comunicação web que o Administrador do sistema utiliza para realizar as operações no sistema.
 
