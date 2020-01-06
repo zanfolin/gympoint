@@ -45,6 +45,8 @@ yarn sequelize db:migrate
 yarn sequelize db:seed
 ```
 
+Após a execução dos comandos e executando o aplicativo Postbird conectado ao banco de dados, terá uma tela parecida com a apresentada acima.
+
 ## Uso
 
 Basicamente para executar o backend basta executar o comando baixo, lembrando que é para desenvolvimento de não para produção.
