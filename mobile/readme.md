@@ -62,9 +62,6 @@ react-native run-android
 ## Exemplo do Uso em Desenvolimento
 
 ![](../prints/mobile_login.png)
-![](../prints/mobile_checkins.png)
-![](../prints/mobile_helporders.png)
-![](../prints/mobile_logout.png)
 
 ## Erro Detectado
 
