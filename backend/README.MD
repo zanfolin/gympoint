@@ -35,7 +35,7 @@ yarn install
 
 ## Configuração para Desenvolvimento
 
-Após a instalação é necessário editar o arquivo [database.js](/src/config/database.js) e corrigir os dados do banco de dados, como _host_, _username_, _password_, _database_. O sistema foi desenvolvimento utilizando como ferramenta auxiliar o _Docker_, portanto havia um container do Postgre versão 11 e uma database criada e vazia. Os procedimentos servirão para criar o banco de dados e popular com algumas informações básicas.
+Após a instalação é necessário editar o arquivo [database.js](./src/config/database.js) e corrigir os dados do banco de dados, como _host_, _username_, _password_, _database_. O sistema foi desenvolvimento utilizando como ferramenta auxiliar o _Docker_, portanto havia um container do Postgre versão 11 e uma database criada e vazia. Os procedimentos servirão para criar o banco de dados e popular com algumas informações básicas.
 
 Com esses requisitos cumpridos o utilizador precisa executar as Migrations (criar os banco de dados) e os Seed.
 
