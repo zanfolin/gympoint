@@ -27,54 +27,46 @@ Bibliotecas utilizadas para o desenvolvimento:
 
 ## Instalação
 
-OS X & Linux:
+Na raiz do projeto execute o comando abaixo para recuperar (baixar) as biblitecas de execução e desenvolvimento:
 
 ```sh
-npm install my-crazy-module --save
+yarn install
 ```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
-
-## Exemplo de uso
-
-Alguns exemplos interessantes e úteis sobre como seu projeto pode ser utilizado. Adicione blocos de códigos e, se necessário, screenshots.
-
-_Para mais exemplos, consulte a [Wiki][wiki]._
 
 ## Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+Após a instalação é necessário editar o arquivo [database.js](/src/config/database.js) e corrigir os dados do banco de dados, como _host_, _username_, _password_, _database_. O sistema foi desenvolvimento utilizando como ferramenta auxiliar o _Docker_, portanto havia um container do Postgre versão 11 e uma database criada e vazia. Os procedimentos servirão para criar o banco de dados e popular com algumas informações básicas.
+
+Com esses requisitos cumpridos o utilizador precisa executar as Migrations (criar os banco de dados) e os Seed.
 
 ```sh
-make install
-npm test
+yarn sequelize db:migrate
+```
+
+```sh
+yarn sequelize db:seed
+```
+
+## Uso
+
+Basicamente para executar o backend basta executar o comando baixo, lembrando que é para desenvolvimento de não para produção.
+
+```sh
+yarn dev
 ```
 
 ## Histórico de lançamentos
 
-- 0.2.1
-  - MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-- 0.2.0
-  - MUDANÇA: Remove `setDefaultXYZ()`
-  - ADD: Adiciona `init()`
-- 0.1.1
-  - CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-- 0.1.0
-  - O primeiro lançamento adequado
-  - MUDANÇA: Renomeia `foo()` para `bar()`
 - 0.0.1
   - Trabalho em andamento
 
 ## Meta
 
-Seu Nome – [@SeuNome](https://twitter.com/...) – SeuEmail@exemplo.com
+Graziani Zanfolin – [@gzanfolin](https://twitter.com/gzanfolin) – zanfolin@gmail.com
 
-Distribuído sob a licença XYZ. Veja `LICENSE` para mais informações.
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
+Temnplate oferecido por:
 [https://github.com/yourname/github-link](https://github.com/othonalberto/)
 
 ## Contributing
